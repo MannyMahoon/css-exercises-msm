@@ -5,13 +5,11 @@ body {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
   background: #eee;
   color: darkmagenta;
 }
@@ -27,3 +25,72 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* MY SOLUTION */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+}
+
+li {
+  padding-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 0;
+
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+  font-size: 24px;
+  
+  
+}
+
+.card-container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  margin: 10px;
+  padding: 16px;
+  margin-bottom: 23px;
+  margin-right: 23px;;
+  width: 300px;
+}
+
+
